@@ -16,7 +16,7 @@ This project demonstrates a simple Echo Server that handles multiple clients con
 
 ## How to Run
 
-### Step 1: Compile the Server and Client
+Compile the Server and Client
 Use GCC to compile the server and client code.
 
 ```bash
@@ -24,3 +24,4 @@ gcc ForkEchoServer.c -o server
 gcc ForkEchoClient.c -o client
 ./server &
 ./client
+netstat -atpn
